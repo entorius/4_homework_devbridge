@@ -1,0 +1,22 @@
+.add-todo-form {
+  width: 50vw;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.add-todo-form input {
+  flex-grow: 1;
+}
+
+.add-todo-form input::placeholder {
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.add-todo-form__submit-btn {
+  margin-left: 8px;
+}
+
+.add-todo-form__submit-btn:hover {
+  border-color: blue;
+  color: blue;
+}

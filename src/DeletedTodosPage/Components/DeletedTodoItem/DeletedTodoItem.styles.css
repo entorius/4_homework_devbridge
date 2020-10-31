@@ -1,0 +1,13 @@
+.deleted-todo-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 2px solid black;
+  border-radius: 4px;
+  padding: 8px;
+  background-color: red;
+}
+
+.deleted-todo-item:not(:last-child) {
+  margin-bottom: 4px;
+}

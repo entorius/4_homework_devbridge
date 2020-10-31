@@ -1,0 +1,16 @@
+header > h1 {
+  text-align: center;
+}
+
+nav {
+  text-align: center;
+  padding-bottom: 24px;
+}
+
+nav a {
+  margin-left: 8px;
+}
+
+nav a.active {
+  color: red;
+}
